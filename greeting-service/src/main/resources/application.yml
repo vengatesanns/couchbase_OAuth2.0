@@ -1,0 +1,9 @@
+server:
+  port: 9006
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:9005/oauth/check_token
+    client:
+      client-id: my_client_id
+      client-secret: my_password

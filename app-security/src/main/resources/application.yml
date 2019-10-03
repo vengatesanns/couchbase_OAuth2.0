@@ -1,0 +1,10 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: oauth-server
+  couchbase:
+    bootstrap-hosts: localhost
+    bucket:
+      name: security_details
+      password: 333333
